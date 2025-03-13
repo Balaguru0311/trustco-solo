@@ -501,12 +501,16 @@ header nav.nav-links li{
 .beneficial-elements{
     padding:100px 150px;
 }
-.stats{
+.stats-wrap{
     display: flex;
     justify-content: center;
     align-items: center;
     gap:64px;
     text-align: center;
+}
+.stats-wrap .stats{
+    display: flex;
+    gap:64px;
 }
 .stats h3{
     font-size: 60px;
@@ -518,4 +522,37 @@ header nav.nav-links li{
     font-size: 24px;
     color:#404040;
     font-weight: var(--fw7);
+}
+
+@media (max-width:820px){
+    .beneficial-elements{
+        padding: 50px 20px;
+    }
+    .stats h3{
+        font-size: 36px;
+        min-width: 158px;
+    }
+    .stats p{
+        font-size: 16px;
+    }
+    .stats-wrap{
+        flex-direction: column;
+    }
+}
+@media (min-width:821px) and (max-width:1200px){
+    .beneficial-elements{
+        padding: 50px 20px;
+    }
+    .stats-wrap .stats{
+        gap:24px;
+    }
+    .stats-wrap{
+        gap:24px;
+    }
+    .stats h3{
+        font-size: 40px;
+    }
+    .stats p{
+        font-size: 20px;
+    }
 }
