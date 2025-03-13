@@ -454,3 +454,68 @@ header nav.nav-links li{
     font-weight: 400;
     color:#404040;
 }
+@media (max-width:820px){
+    .features{
+        padding: 50px 20px;
+    }
+    .features button{
+        padding: 4px 16px;
+    }
+    .feature-wrap{
+        gap:32px;
+    }
+    .feature-wrap, .feature-card-wrap{
+        flex-direction: column;
+    }
+    .feature-content h1{
+        font-size: 30px;
+        margin:16px 0;
+    }
+    .feature-content p, .features button, .feature p{
+        font-size: 14px;
+    }
+    .feature h3{
+        font-size: 20px;
+    }
+}
+@media (min-width:821px) and (max-width:1200px){
+    .features{
+        padding: 50px 20px;
+    }
+    .feature-content h1{
+        font-size: 24px;
+        margin: 16px 0;
+    }
+    .feature-content p, .feature p{
+        font-size: 14px;
+    }
+    .feature-wrap{
+        gap:32px;
+    }
+    .feature h3{
+        font-size: 20px;
+    }
+}
+
+/* Numbers Section */
+.beneficial-elements{
+    padding:100px 150px;
+}
+.stats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:64px;
+    text-align: center;
+}
+.stats h3{
+    font-size: 60px;
+    color:var(--prime);
+    font-weight: var(--fw7);
+    min-width: 237px;
+}
+.stats p{
+    font-size: 24px;
+    color:#404040;
+    font-weight: var(--fw7);
+}
