@@ -496,3 +496,26 @@ header nav.nav-links li{
         font-size: 20px;
     }
 }
+
+/* Numbers Section */
+.beneficial-elements{
+    padding:100px 150px;
+}
+.stats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:64px;
+    text-align: center;
+}
+.stats h3{
+    font-size: 60px;
+    color:var(--prime);
+    font-weight: var(--fw7);
+    min-width: 237px;
+}
+.stats p{
+    font-size: 24px;
+    color:#404040;
+    font-weight: var(--fw7);
+}
