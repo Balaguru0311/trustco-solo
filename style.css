@@ -16,6 +16,7 @@ body{
     --white:#fff;
     --secon:#92A7B0;
     --greysecon:#C9D3D8;
+    --yellow:#F0B73F;
     --fw8:800;
     --fw7:700;
 }
@@ -323,4 +324,34 @@ header nav.nav-links li{
     .clients-container p{
         margin-bottom: 20px;
     }
+}
+
+/* Video Section */
+.video-container{
+    background-color: var(--prime);
+    padding: 100px 150px 0 150px;
+}
+.team-content{
+    display: flex;
+    gap:120px;
+    justify-content: space-between;
+}
+.team-content h1{
+    font-size: 55px;
+    color: #FFF;
+    font-weight: var(--fw7);
+    min-width: 590px;
+}
+.team-content h1 span{
+    color: var(--yellow);
+    font-size: 50px;
+}
+.team-content p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: var(--white);
+}
+.team-image{
+    padding-top: 64px;
 }
