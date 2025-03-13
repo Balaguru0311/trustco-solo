@@ -268,3 +268,26 @@ header nav.nav-links li{
         font-size: 14px;
     }
 }
+
+/* Trusted Brand Section */
+.clients-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+}
+.client-logos{
+    display: flex;
+    gap:64px;
+    justify-content: space-between;
+    align-items: center;
+}
+.clients-container p{
+    font-size: 16px;
+    color:#000000;
+    font-weight: 500;
+}
+.clients-container h3{
+    font-size: 24px;
+    color:#787878;
+}
