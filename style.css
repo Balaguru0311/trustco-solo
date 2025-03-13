@@ -556,3 +556,48 @@ header nav.nav-links li{
         font-size: 20px;
     }
 }
+
+/* Founder Section */
+.founder{
+    padding: 50px 0px 100px 150px;
+}
+.founder-content{
+    display: flex;
+    align-items: center;
+    gap:64px;
+}
+.founder-content h1{
+    font-size: 60px;
+    color:var(--dark);
+    font-weight: var(--fw7);
+    min-width: 527px;
+}
+.founder-text h3{
+    font-size: 24px;
+    color: var(--dark);
+    font-weight: 400;
+    margin: 32px 0;
+}
+.founder-text p{
+    font-size: 20px;
+    color: var(--dark);
+    font-weight: var(--fw7);
+}
+.founder span{
+    font-size: 16px;
+    color: #404040;
+    font-weight: 400;
+}
+.founder .btn{
+    background-color: var(--prime);
+    color:var(--white);
+    font-size: 18px;
+    font-weight: var(--fw7);
+    padding: 16px 16px 16px 24px;
+    border-radius: 55px;
+    display: flex;
+    gap:24px;
+    align-items: center;
+    max-width: 360px;
+    margin-top: 64px;
+}
