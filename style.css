@@ -684,7 +684,7 @@ header nav.nav-links li{
 .message-content{
     padding: 133px 150px 133px 0;
 }
-.message-content h1{
+.message-content h1, .testimonials h1{
     font-size: 3.75rem;
     color: var(--dark);
     font-weight: var(--fw7);
@@ -729,7 +729,7 @@ header nav.nav-links li{
         align-items: center;
         justify-content: center;
     }
-    .message-content h1{
+    .message-content h1, .testimonials h1{
         font-size: 30px;
         line-height: 38px;
         text-align: center;
@@ -760,4 +760,67 @@ header nav.nav-links li{
         font-size: 40px;
         line-height: 45px;
     }
+}
+
+/* Testimonials Section */
+.testimonials {
+    padding: 100px 150px;
+    background-color: var(--grey);
+    margin-top: -38px;
+}
+.testimonial-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonial-head .view-all, .view-all-mob{
+    font-size: 18px;
+    color: var(--dark);
+    font-weight: var(--fw7);
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.testimonial-wrap{
+    display: flex;
+    gap:32px;
+    margin: 64px 0;
+}
+.testimonial{
+    background-color: var(--white);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0px 1px 2px 0px #00000014;
+    max-width: 550px;
+}
+.testimonial h3{
+    color: var(--dark);
+    font-weight: var(--fw4);
+    font-size: 1.5rem;
+    margin: 10px 0 24px 0;
+}
+.testimonial h4{
+    color: #000000;
+    font-size: 1rem;
+    font-weight: var(--fw7);
+    margin-bottom: 5px;
+}
+.testimonial p{
+    font-size: 1rem;
+    color:var(--darkgrey);
+    font-weight: var(--fw4);
+
+}
+.user-details{
+    display: flex;
+    align-items: center;
+    gap:12px;
+}
+.carousal-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousal-img-mob, .view-all-mob{
+    display: none;
 }
