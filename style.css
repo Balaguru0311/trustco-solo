@@ -824,3 +824,63 @@ header nav.nav-links li{
 .carousal-img-mob, .view-all-mob{
     display: none;
 }
+
+@media screen and (max-width:576px){
+    .testimonials{
+        padding: 50px 20px;
+        margin-top: 0;
+    }
+    .testimonial-head .view-all{
+        display: none;
+    }
+    .carousal-img{
+        display: none;
+    }
+    .carousal-img-mob{
+        display: flex;
+        margin: 32px 0;
+        justify-content: center;
+    }
+    .view-all-mob{
+        display: flex;
+        justify-content: center;
+    }
+    .testimonial-wrap{
+        margin: 32px 0;
+        justify-content: center;
+    }
+    .testimonial-head{
+        justify-content: center;
+    }
+    .testimonial{
+        min-width: 275px;
+        justify-content: center;
+    }
+    .testimonial:nth-child(2){
+        display: none;
+    }
+    .testimonial h3{
+        font-size: 16px;
+    }
+    .testimonial h4{
+        font-size: 14px;
+    }
+    .testimonial p{
+        font-size: 12px;
+    }
+}
+@media  screen and (min-width:577px) and (max-width:820px){
+    .testimonials{
+        padding: 50px;
+        margin-top: 0;
+    }
+}
+@media  screen and (min-width:821px) and (max-width:1200px){
+    .testimonials{
+        padding: 50px;
+        margin-top: 0;
+    }
+    .testimonials h1{
+        font-size: 44px;
+    }
+}
