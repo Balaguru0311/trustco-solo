@@ -618,6 +618,11 @@ header nav.nav-links li{
         font-size: 30px;
         min-width: 200px;
     }
+    .founder-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .founder-text h3{
         margin: 16px 0;
     }
@@ -632,6 +637,10 @@ header nav.nav-links li{
     }
     .founder-image-mob{
         display: flex;
+        margin-bottom: -50px;
+    }
+    .founder-image-mob img{
+        object-fit: cover;
     }
     .founder .btn{
         font-size: 16px;
@@ -702,4 +711,53 @@ header nav.nav-links li{
     max-width: 210px;
     gap:24px;
     align-items: center;  
+}
+.message-image-mob{
+    display: none;
+}
+@media screen and (max-width:820px) {
+    .company-message 
+    {
+        flex-direction: column;
+        gap:0;
+        align-items: center;
+    }
+    .message-content{
+        padding: 0 20px 50px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .message-content h1{
+        font-size: 30px;
+        line-height: 38px;
+        text-align: center;
+    }
+    .message-content p{
+        font-size: 1rem;
+        text-align: center;
+        margin: 16px 0;
+    }
+    .message-image{
+        display: none;
+    }
+    .message-image-mob{
+        display: flex;
+    }
+}
+@media (min-width:821px) and (max-width:1200px) {
+    .company-message{
+        gap:20px;
+    }
+    .message-image img{
+        max-width: 500px;
+    }       
+    .message-content{
+        padding: 50px;
+    }
+    .message-content h1{
+        font-size: 40px;
+        line-height: 45px;
+    }
 }
