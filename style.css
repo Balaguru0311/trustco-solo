@@ -941,7 +941,7 @@ header nav.nav-links li{
     align-items: center;
 }
 
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .blog{
         padding: 50px 18px;
     }
@@ -980,4 +980,4 @@ header nav.nav-links li{
     .news-item2{
         display: block;
     }
-} */
+}
