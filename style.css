@@ -1254,3 +1254,11 @@ li{
     border: none;
     background-color: transparent;
 }
+@media screen and (max-width:576px) {
+    .footer-bottom{
+        flex-direction: column;
+        gap:32px;
+        align-items: center;
+        padding: 24px;
+    }
+}
