@@ -905,6 +905,9 @@ header nav.nav-links li{
     background-color: #FFFFFF;
     border-radius: 8px;
 }
+.blog-img{
+    width:100%;
+}
 .news-content{
     padding: 24px;
 }
@@ -944,14 +947,17 @@ header nav.nav-links li{
 @media screen and (max-width: 1024px) {
     .blog{
         padding: 50px 18px;
+        overflow-x: hidden;
     }
     .news-items{
-        max-width: 290px;
+        gap:16px;
+        justify-content: center;
     }
     .news-item2, .news-item3{
         display: none;
     }
     .news-item{
+        min-width: 290px;
         margin-bottom: 24px;
     }
     .news-content date{
@@ -980,4 +986,46 @@ header nav.nav-links li{
     .news-item2{
         display: block;
     }
+}
+
+/* CTA Banner Section */
+.cta-banner {
+    padding: 100px 0 0 150px;
+    background-color: var(--dark);
+    max-height: 520px;
+}
+.cta{
+    display: flex;
+}
+.cta-content h1{
+    color: var(--white);
+    font-size: 3rem;
+    font-weight: var(--fw7);
+    margin-bottom: 50px;
+}
+.cta-button{
+    background-color: var(--yellow);
+    padding: 16px 16px 16px 24px;
+    border-radius: 55px;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: var(--fw7);
+    display: flex;
+    gap:25px;
+    align-items: center;
+    max-width: 290px;
+    margin-bottom: 24px;
+}
+.cta-content p{
+    color: var(--white);
+    font-size: 20px;
+    font-weight: var(--fw4);
+}
+.cta-image{
+    margin-left: -150px;
+    max-height: 520px;
+    margin-top: -100px;
+}
+.cta-image-mob{
+    display: none;
 }
