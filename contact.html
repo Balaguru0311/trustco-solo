@@ -146,6 +146,29 @@
                 <option value="en">English</option>
             </select>
         </div>
-    </div>  
+    </div>
+    
+    <script>  
+        document.getElementById('myForm').addEventListener('submit', function(event) {  
+            event.preventDefault(); // Prevent default form submission   
+    
+            // Gather form data  
+            let formData = {  
+                name: document.getElementById('name').value,  
+                email: document.getElementById('email').value,  
+                company: document.getElementById('company').value,  
+                phone: document.getElementById('phone').value,  
+                message: document.getElementById('message').value,  
+                terms: document.getElementById('terms').checked,  
+            };  
+    
+            // Output the form data to the console (you can send it to a server here)  
+            console.log('Form submitted:', formData);  
+    
+            // Optionally: Reset the form fields  
+            document.getElementById('myForm').reset();  
+        });  
+    </script>
+
 </body>
 </html>
