@@ -1381,3 +1381,42 @@ li{
 .footer-bot{
     border: none;
 }
+
+/* Contact Page Responsive */
+@media screen and (max-width:576px){
+    .help-container, .form-container{
+        padding: 50px 20px;
+        }
+        .help-container h1, .form-container h1{
+            font-size: 30px;
+        }
+        .help-container p, .form-container p{
+            font-size: 14px;
+        }
+        .cards, .input-wrap{
+            flex-direction: column;
+        }
+        .input-wrap, .terms-conditions{
+            padding: 0 20px;
+        }
+        .form-group{
+            min-width: 300px;
+        }
+    }
+    @media screen and (min-width:768px) and (max-width:1200px){
+        .form-container, .help-container{
+            padding: 50px;
+        }
+        .help-container h1, .form-container h1{
+            font-size: 40px;
+        }
+        .help-container p, .form-container p{
+            font-size: 16px;
+        }
+        .form-group{
+            min-width: 48%;
+        }
+        .input-wrap, .terms-conditions{
+            padding: 0;
+        }
+    }
