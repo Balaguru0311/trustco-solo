@@ -39,7 +39,9 @@ header .container {
     align-items: center;
     margin: 0 auto;
 }
-
+.logo{
+    cursor: pointer;
+}
 header nav.nav-links ul {
     list-style: none;
     display: flex;
@@ -1261,4 +1263,121 @@ li{
         align-items: center;
         padding: 24px;
     }
+}
+/* Contact Page */
+.help-container{
+    padding: 90px 120px;
+    background-color: var(--grey);
+}
+.help-container h1, .form-container h1{
+    font-size: 60px;
+    font-family: Lato,sans-serif;
+    font-weight: 800;
+    color: var(--dark);
+    text-align: center;
+}
+.help-container p, .form-container p{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--dark);
+    text-align: center;
+    /* margin-top: 16px; */
+}
+.help-container p span, .form-container p span{
+    display: block;
+}
+.help-container .cards{
+    display: flex;
+    gap:32px;
+    margin-top: 32px;
+}
+.help-container .card{
+    background-color: var(--white);
+    border-radius: 16px;
+    padding: 24px;
+}
+.card h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--dark);
+    margin: 32px 0 15px 0;
+}
+.card p{
+    font-size: 18px;
+    font-weight: var(--fw4);
+    color: var(--darkgrey);
+    text-align: left;
+}
+.card a{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--prime);
+    display: flex;
+    gap:10px;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.form-container{
+    padding: 100px 120px;
+}
+.input-wrap{
+    display: flex;
+    gap:32px;
+    width:100%;
+    padding: 0 84px;
+    margin: 32px 0;
+}
+.form-group{
+    min-width:500px;
+    height:60px;
+    border: 1px solid #91A7B0;
+    padding: 12px;
+    border: 1px solid #91A7B0;
+    border-radius: 10px;
+    color: #91A7B0;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    gap:15px;
+    align-items: center;
+}
+.text-area{
+    width:100%;
+}
+.form-group img{width:36px;}
+.form-group input, textarea{
+    border: none;
+    width:100%;
+}
+.form-group input:focus, textarea:focus{
+    outline: none;
+}
+.terms-conditions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 84px;
+}
+.terms-conditions label{
+    font-size: 16px;
+    color:var(--dark);
+    font-weight: var(--fw4);
+}
+.terms-conditions label a{
+    color: var(--prime);
+    font-weight: 800;
+}
+.submit-btn{
+    padding: 8px 16px;
+    background-color: var(--prime);
+    border-radius: 42px;
+    color:var(--white);
+    width:150px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.footer-bot{
+    border: none;
 }
