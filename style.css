@@ -1089,3 +1089,50 @@ header nav.nav-links li{
         /* margin-left: 50px; */
     }
 }
+
+/* Footer Section */
+.footer{
+    padding: 80px 150px;
+    display: flex;
+    gap:90px;
+}
+.footer-links, .footer-logo{
+    display: flex;
+    gap:90px;
+}
+.footer-logo p{
+    font-size: 18px;
+    color: var(--darkgrey);
+    font-weight: var(--fw4);
+    line-height: 28px;
+}
+.footer-logo img{
+    width:212px;
+}
+.social-icons{
+    display: flex;
+    gap:16px;
+}
+.social-icons img{
+    width:40px;
+    margin-top: 50px;
+}
+.footer-links-col h3{
+    font-size: 24px;
+    color:var(--dark);
+    font-weight: var(--fw7);
+    margin-bottom: 32px;
+    min-width: 115px;
+}
+li{
+    list-style: none;
+}
+.footer-links-col ul li a{
+    color: var(--darkgrey);
+    font-size: 18px;
+    font-weight: var(--fw4);
+}
+.footer-links-col ul li{
+    margin-top: 32px;
+}
+
